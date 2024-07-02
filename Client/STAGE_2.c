@@ -7,7 +7,6 @@
 #include <sys/types.h>
 #include <netinet/in.h>
 #include <sys/select.h>
-#include "rmd160.h"
 
 #define MAX_BUF 1024
 #define IPADDR "172.29.144.29"
