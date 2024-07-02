@@ -70,7 +70,8 @@ int main(int argc, char *argv[])
       {
         buf[read_bytes] = '\0';
         printf("Response from port %d: %s\n", port, buf);
-        if (strstr(buf, "SKY: IEXP1-2410-M1 Server ver. 1.52") != NULL)
+        if (strstr(buf, "SKY: IEXP1-2410-M1 Server ver. 1.52") != NULL ||
+            strstr(buf, "SKY: IEXP1-2410-M2 Server ver 17.2") != NULL)
         {
           found = 1;
           break;
