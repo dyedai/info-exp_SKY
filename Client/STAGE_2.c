@@ -11,16 +11,9 @@
 
 #define MAX_BUF 1024
 #define IPADDR "172.29.144.29"
-#define RMDsize 160
-
-extern byte *RMD(byte *);
 
 int main(int argc, char *argv[])
 {
-  unsigned int i;
-  char input[200];
-  char output[RMDsize / 4 + 1] = "";
-  byte *hashcode;
 
   if (argc != 2)
   {
