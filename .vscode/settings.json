@@ -4,6 +4,8 @@
     "time.h": "c",
     "in.h": "c",
     "rmd160.h": "c",
-    "STAGE2.C": "cpp"
+    "STAGE2.C": "cpp",
+    "select.h": "c",
+    "tcp.h": "c"
   }
 }
